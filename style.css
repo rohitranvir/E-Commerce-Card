@@ -1,0 +1,120 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    background-color: #001422;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.circle{
+    
+    position: absolute;
+    
+    border-radius: 50%;
+}
+.circle-1{
+ top: 20px;
+ left: 380px;
+    height: 138px;
+    width: 138px  ;
+    background-image    : radial-gradient(69.62% 69.62% at 50.0% 50.0% ,#ea8bfa 0%, #7526f5 100%);
+}
+.circle-2{
+    height: 368px;
+    width: 368px  ;
+    top: 20px;
+    left: 700px;
+    background-image    : radial-gradient(69.62% 69.62% at 50.0% 50.0% ,#ea8bfa 0%, #7526f5 100%);
+}
+.circle-3{
+    height: 230px;
+    width: 230px  ;
+    top: 380px;
+ left: 300px;
+    background-image    : radial-gradient(69.62% 69.62% at 50.0% 50.0% ,#ea8bfa 0%, #7526f5 100%);
+}
+.card{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.434);
+    border: 3px solid rgba(69, 69, 219, 0.53);
+    backdrop-filter: blur(11.156px);
+    
+    
+    border-radius: 10px;
+}
+.second-card{
+    width: 280px;
+    height: 95%;
+    margin-top: 10px;
+    display: flex ;
+        
+    border: 1px solid blue;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.second-card img{
+    
+    width: 280px;
+    height: 150px;
+    
+}
+.level{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 10px;
+    justify-content: space-between  ;
+}
+.level p{
+    background-color: rgba(230, 164, 117, 0.9);
+    color: rgb(188, 80, 4);
+    padding: 3px;
+    border-radius: 5px;
+}
+.level i{
+    margin-top: 13px;
+    color: white;
+}
+h3{
+    margin: 0;
+    margin-left: 10px      ;
+    font-size: 20px;
+    color: white;
+}
+#name{
+    margin: 10px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.724);
+}
+.div-str{
+    display: flex;
+    gap: 10px;
+}
+.stars{
+    margin-left: 10px;  
+    color: rgb(255, 187, 0);
+}
+button{
+   height: 56px;
+   width: 280px;
+   margin-top: 10px;
+   color: white;
+   /* background: rgba(255, 255, 255, 0.185); */
+   cursor: pointer;
+   backdrop-filter: blur(11.156px);
+   font-size: 18px;
+   transition: all 0.3s ease-in-out;
+   background-color: rgba(255, 229, 229, 0);
+    border: 3px solid rgba(69, 69, 219, 0.53);
+    backdrop-filter: blur(11.156px);
+}
+button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(69, 69, 219, 0.8);
+    color: rgb(188, 80, 4);
+}
